@@ -23,14 +23,16 @@ body{
 }
 .header {
   border-bottom: 1px solid #BDC3C7;
-  color:white;
+
   margin-bottom:5px;
 }
-.header>span{
-   font-weight: italic
-}
+
 .seccion-logo {
+  color:white;
   border-right: 1px solid #BDC3C7
+}
+.seccion-logo span{
+    text-align: right !important;;
 }
 .content{
 	background-color: rgba(93, 109, 126, 0.85);
